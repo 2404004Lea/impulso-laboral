@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Iniciar Sesión - Impulso Laboral</title>
-    <link rel="stylesheet" href="../css/login.css">
+    <link rel="stylesheet" href="login.css">
 </head>
 <body>
     <div class="login-container">
@@ -40,7 +40,7 @@
 
         <!-- Right Side - Form -->
         <div class="login-form-container">
-            <a href="../html/bienvenida.html" class="logo-link">← IMPULSO LABORAL</a>
+            <a href="bienvenida.html" class="logo-link">← IMPULSO LABORAL</a>
             
             <div class="form-tabs">
                 <div class="form-tab active" onclick="switchTab('login')">Iniciar Sesión</div>
@@ -190,7 +190,7 @@
         document.getElementById('login-form').querySelector('form').addEventListener('submit', function(e) {
             e.preventDefault();
             alert('¡Inicio de sesión exitoso! Redirigiendo...');
-            window.location.href = '../html/bienvenida.html';
+            window.location.href = 'bienvenida.html';
         });
 
         document.getElementById('register-form').querySelector('form').addEventListener('submit', function(e) {
@@ -209,8 +209,9 @@
             }
             
              alert('¡Registro exitoso! Bienvenido a Impulso Laboral');
-             window.location.href = '../html/bienvenida.html';
+             window.location.href = 'bienvenida.html';
         });
     </script>
 </body>
+
 </html>
